@@ -1,0 +1,253 @@
+/*--Header del header--*/
+#header-home .top-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 15px;
+    padding: 10px 0;
+    box-sizing: border-box;
+    background-color: #fff;
+    z-index: 9001;
+}
+#header-home .top-header img {
+    height: 80px;
+}
+#header-home .top-header h1 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 25px;
+}
+.low-header #login-btn-container {
+    padding: 0 40px;
+}
+/*--Main--*/
+/*--Sección matrícula--*/
+#inscription {
+    display: flex;
+    justify-content: center;
+    padding: 140px 0;
+    gap: 60px;
+}
+@media (max-width: 1240px) {
+    #inscription {
+        flex-wrap: wrap;
+    }
+}
+/*Imagen de la niña*/
+.inscription-img-container {
+    background-color: #CFE4E7;
+    border-radius: 30px;
+}
+.inscription-img-container img {
+    height: 420px;
+}
+/*Palabras y botones*/
+.inscription-presentation {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+@media (max-width:900px) {
+    .inscription-presentation {
+        width: 75%;
+    }
+}
+/*Las palabras*/
+.inscription-presentation h1 {
+    color: var(--main-color);
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+}
+.inscription-presentation h2:first-child {
+    color: var(--secondary-color);
+    font-size: 30px;
+    margin: 0;
+    font-weight: 500;
+}
+.inscription-presentation h2:nth-child(3) {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0;
+}
+/*Los botones*/
+.inscription-btn-container {
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+    padding: 0 10px;
+}
+.inscription-btn-container a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: none;
+    border-radius: 6px;
+    padding: 5px;
+    height: 57px;
+    width: 322px;
+    color: var(--light-color);
+    font-size: 22px;
+    font-weight: medium;
+    cursor: pointer;
+    transition: 0.35s;
+}
+.inscription-btn-container a:first-child {
+    background-color: var(--secondary-color);
+}
+.inscription-btn-container a:first-child:hover {
+    background-color: #EE304295;
+}
+.inscription-btn-container a:last-child {
+    background-color: var(--main-color);
+}
+.inscription-btn-container a:last-child:hover {
+    background-color: #16469D90;
+}
+.inscription-btn-container a:active {
+    transform: scale(.95);
+}
+/*--Sección ¿quiénes?--*/
+#about-us {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--light-color);
+    padding: 90px 0;
+}
+#about-us h1 {
+    color: var(--main-color);
+    margin: 0;
+    text-align: left;
+    margin: 0 0 3% 10%;
+}
+.info-about-us-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.info-about-us {
+    background-color: #4A57CA;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 50px;
+    width: 60%;
+}
+@media (max-width:1240px) {
+    .info-about-us {
+        flex-wrap: wrap;
+    }
+}
+@media (max-width:900px) {
+    .info-about-us {
+        width: 70%;
+    }
+}
+.login-btn-container {
+    padding: 0 20px;
+}
+.info-about-us img {
+    width: 430px;
+    height: 250px;
+    user-select: none;
+}
+.info-about-us p {
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 400;
+}
+.info-about-us h5 {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+}
+/*--Sección talleres--*/
+#workshop {
+    display: flex;
+    flex-direction: column;
+    padding: 90px 0;
+    margin-bottom: 80px;
+    gap: 50px;
+}
+#workshop h1 {
+    color: var(--main-color);
+    margin: 0;
+    text-align: left;
+    margin: 0 0 3% 10%;
+}
+.workshop-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+.workshop-cards {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 415px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px #C1B4BF;
+}
+.workshop-cards h2 {
+    padding: 0 20px;
+}
+.workshop-cards p {
+    padding: 0 20px;
+    font-size: 18px;
+    font-weight: normal;
+}
+/*--Sección ¿por qué?--*/
+#study-here {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-color);
+    padding: 120px 0;
+}
+#study-here h1 {
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: normal;
+}
+#study-here .container {
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+#study-here .container .study-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+}
+#study-here .container .study-content h3 {
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+}
+#study-here .container .study-content .icon-container {
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    padding: 40px;
+    transition: 0.6s;
+}
+#study-here .icon-container:hover {
+    transform: rotate(360deg) scale(1.1);
+}
+#study-here .study-content:first-child .icon-container {
+    background-color: var(--secondary-color);
+}
+#study-here .iconify {
+    height: 100px;
+    width: 100px;
+}
