@@ -22,7 +22,7 @@ export async function processQuestion(question) {
 			},
 			{
 				role: "system",
-				content: `Considera estas preguntas y respuestas para responder las preguntas del usuario: ${JSON.stringify(
+				content: `Considera estas preguntas y respuestas para atender las preguntas del usuario: ${JSON.stringify(
 					knowledge
 				)}`,
 			},
@@ -32,6 +32,5 @@ export async function processQuestion(question) {
 			},
 		],
 	});
-	https://leunknownr.atlassian.net/rest/api/3/issue
 	return result.choices[0].message.content;
 }
