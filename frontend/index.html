@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./public/img/logo.png"/>
     <link rel="stylesheet" href="./public/styles/normalize.css">
-    <link rel="stylesheet" href="./public/styles/customItems.css">
+    <link rel="stylesheet" href="./public/styles/customize.css">
     <link rel="stylesheet" href="./public/styles/index.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <title>Victor Manuel Maurtua</title>
+    <title>I.E. Victor Manuel Maurtua</title>
 </head>
 <body>
     <header id="header-home">
@@ -196,10 +196,32 @@
             <p>© 2025 VICTOR MANUEL MAURTUA</p>
         </div>
     </footer>
+    <div class="chatbot">
+        <div class="chatbot__support">
+            <div class="chatbot__header">
+                <div class="chatbot__image--header">
+                    <img src="https://img.icons8.com/color/48/000000/circled-user-female-skin-type-5--v1.png" alt="image">
+                </div>
+                <div class="chatbot__content--header">
+                    <h4 class="chatbot__heading--header">Chatbot Consultas</h4>
+                    <p class="chatbot__description--header">¡Hola! Soy un asistente del "I.E. Victor Manuel Maurtua". Estoy aquí para ayudarte con tus consultas.</p>
+                </div>
+            </div>
+            <div class="chatbot__messages"></div>
+            <div class="chatbot__footer">
+                <input type="text" placeholder="¿Y tu consulta es...?">
+                <button class="chatbot__send--footer send__button">Enviar</button>
+            </div>
+        </div>
+        <div class="chatbot__button">
+            <button><img src="./public/img/chatbox-icon.svg" /></button>
+        </div>
+    </div>
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script src="./public/scripts/sliderSwiper.js"></script>
     <script src="./public/scripts/responsiveMenu.js"></script>
     <script src="./public/scripts/header.js"></script>
+    <script src="./public/scripts/chatbot.js"></script>
     <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
 </body>
 </html>
